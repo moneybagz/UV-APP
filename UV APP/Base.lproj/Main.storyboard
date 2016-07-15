@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1472"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ach-tn-o28">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="1472"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d1z-HF-iWQ">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1472"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="clouds.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="TEa-lS-e8C">
+                                                <rect key="frame" x="0.0" y="368" width="414" height="736"/>
+                                            </imageView>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IlC-Oh-b0x">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="8.88" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HIw-0s-zq5">
+                                                        <rect key="frame" x="20" y="172" width="374" height="209"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="110"/>
+                                                        <color key="textColor" red="0.43137254899999999" green="0.43137254899999999" blue="0.43137254899999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wavyline.png" translatesAutoresizingMaskIntoConstraints="NO" id="V62-ih-FHg">
+                                                        <rect key="frame" x="65" y="566" width="298" height="87"/>
+                                                    </imageView>
+                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="yKb-iu-gZa">
+                                                        <rect key="frame" x="20" y="436" width="374" height="128"/>
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                    </textView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="UVINDEX FROM 0 - 15" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="drv-yO-M7j">
+                                                        <rect key="frame" x="65" y="680" width="298" height="21"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="niceSun.png" translatesAutoresizingMaskIntoConstraints="NO" id="RZX-8H-F9s">
+                                                        <rect key="frame" x="130" y="56" width="154" height="149"/>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="UVINDEX NOW" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="whj-70-5IS">
+                                                        <rect key="frame" x="130" y="384" width="154" height="21"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qTg-SD-wRB">
+                                                        <rect key="frame" x="154" y="406" width="107" height="30"/>
+                                                        <state key="normal" title="READ MORE"/>
+                                                        <connections>
+                                                            <action selector="readmoreButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0JY-7l-UPP"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </view>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6bo-B9-FNo">
+                                                <rect key="frame" x="0.0" y="736" width="414" height="736"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </view>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1472" id="wfx-jc-8v5"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="d1z-HF-iWQ" firstAttribute="top" secondItem="ach-tn-o28" secondAttribute="top" id="3AK-d4-YL5"/>
+                                    <constraint firstItem="d1z-HF-iWQ" firstAttribute="leading" secondItem="ach-tn-o28" secondAttribute="leading" id="8CP-pq-EUV"/>
+                                    <constraint firstAttribute="bottom" secondItem="d1z-HF-iWQ" secondAttribute="bottom" id="C5y-ku-NJQ"/>
+                                    <constraint firstAttribute="trailing" secondItem="d1z-HF-iWQ" secondAttribute="trailing" id="DjL-Ig-t6v"/>
+                                    <constraint firstAttribute="height" constant="1472" id="eGF-hN-NKZ"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="ach-tn-o28" secondAttribute="trailing" id="18z-7D-ub0"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ach-tn-o28" secondAttribute="bottom" id="YpJ-NW-FxR"/>
+                            <constraint firstItem="d1z-HF-iWQ" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="cMr-Zg-GNG"/>
+                            <constraint firstItem="ach-tn-o28" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="msi-Os-BFh"/>
+                            <constraint firstItem="ach-tn-o28" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="w2e-jP-QWy"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="414" height="1472"/>
+                    <connections>
+                        <outlet property="UVindexScale" destination="drv-yO-M7j" id="qyG-6Q-5OA"/>
+                        <outlet property="bottomView" destination="6bo-B9-FNo" id="YQg-xa-VFt"/>
+                        <outlet property="hello" destination="8bC-Xf-vdC" id="eam-zF-L6Z"/>
+                        <outlet property="mainView" destination="IlC-Oh-b0x" id="nD3-Hv-CtV"/>
+                        <outlet property="scrollView" destination="d1z-HF-iWQ" id="GpO-cW-Ey4"/>
+                        <outlet property="textScroll" destination="yKb-iu-gZa" id="NIM-zy-4Cj"/>
+                        <outlet property="uiindexLabel" destination="HIw-0s-zq5" id="Qi1-2H-tJo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="280" y="300"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="clouds.jpg" width="1280" height="720"/>
+        <image name="niceSun.png" width="2400" height="2400"/>
+        <image name="wavyline.png" width="256" height="256"/>
+    </resources>
+</document>
