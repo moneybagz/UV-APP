@@ -20,10 +20,33 @@
 		5379DA7E1D397FB4005FEE80 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5379DA7D1D397FB4005FEE80 /* CoreLocation.framework */; };
 		5379DA801D398813005FEE80 /* niceSun.png in Resources */ = {isa = PBXBuildFile; fileRef = 5379DA7F1D398813005FEE80 /* niceSun.png */; };
 		5379DA821D398D12005FEE80 /* clouds.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5379DA811D398D12005FEE80 /* clouds.jpg */; };
+		5379DA841D3D5190005FEE80 /* thermometer.png in Resources */ = {isa = PBXBuildFile; fileRef = 5379DA831D3D5190005FEE80 /* thermometer.png */; };
+		5379DA861D3D538C005FEE80 /* weatherIconRain.png in Resources */ = {isa = PBXBuildFile; fileRef = 5379DA851D3D538C005FEE80 /* weatherIconRain.png */; };
+		5379DA881D3D5396005FEE80 /* weatherIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5379DA871D3D5396005FEE80 /* weatherIcon.png */; };
+		5379DA971D3D6E2C005FEE80 /* WeatherParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5379DA961D3D6E2C005FEE80 /* WeatherParameters.swift */; };
+		5379DAAB1D3D72C7005FEE80 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 5379DA991D3D72C7005FEE80 /* Contents.json */; };
+		5379DAAC1D3D72C7005FEE80 /* Icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 5379DA9A1D3D72C7005FEE80 /* Icon-40.png */; };
+		5379DAAD1D3D72C7005FEE80 /* Icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5379DA9B1D3D72C7005FEE80 /* Icon-40@2x.png */; };
+		5379DAAE1D3D72C7005FEE80 /* Icon-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5379DA9C1D3D72C7005FEE80 /* Icon-40@3x.png */; };
+		5379DAAF1D3D72C7005FEE80 /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5379DA9D1D3D72C7005FEE80 /* Icon-60@2x.png */; };
+		5379DAB01D3D72C7005FEE80 /* Icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5379DA9E1D3D72C7005FEE80 /* Icon-60@3x.png */; };
+		5379DAB11D3D72C7005FEE80 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 5379DA9F1D3D72C7005FEE80 /* Icon-72.png */; };
+		5379DAB21D3D72C7005FEE80 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5379DAA01D3D72C7005FEE80 /* Icon-72@2x.png */; };
+		5379DAB31D3D72C7005FEE80 /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 5379DAA11D3D72C7005FEE80 /* Icon-76.png */; };
+		5379DAB41D3D72C7005FEE80 /* Icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5379DAA21D3D72C7005FEE80 /* Icon-76@2x.png */; };
+		5379DAB51D3D72C7005FEE80 /* Icon-83.5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5379DAA31D3D72C7005FEE80 /* Icon-83.5@2x.png */; };
+		5379DAB61D3D72C7005FEE80 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 5379DAA41D3D72C7005FEE80 /* Icon-Small-50.png */; };
+		5379DAB71D3D72C7005FEE80 /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5379DAA51D3D72C7005FEE80 /* Icon-Small-50@2x.png */; };
+		5379DAB81D3D72C7005FEE80 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 5379DAA61D3D72C7005FEE80 /* Icon-Small.png */; };
+		5379DAB91D3D72C7005FEE80 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5379DAA71D3D72C7005FEE80 /* Icon-Small@2x.png */; };
+		5379DABA1D3D72C7005FEE80 /* Icon-Small@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5379DAA81D3D72C7005FEE80 /* Icon-Small@3x.png */; };
+		5379DABB1D3D72C7005FEE80 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5379DAA91D3D72C7005FEE80 /* Icon.png */; };
+		5379DABC1D3D72C7005FEE80 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5379DAAA1D3D72C7005FEE80 /* Icon@2x.png */; };
+		5379DABE1D3D79C5005FEE80 /* scrollDown.png in Resources */ = {isa = PBXBuildFile; fileRef = 5379DABD1D3D79C5005FEE80 /* scrollDown.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5379DA5B1D3949FC005FEE80 /* UV APP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UV APP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5379DA5B1D3949FC005FEE80 /* UVAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UVAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5379DA5F1D3949FC005FEE80 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5379DA611D3949FC005FEE80 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5379DA621D3949FC005FEE80 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -40,6 +63,30 @@
 		5379DA7D1D397FB4005FEE80 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		5379DA7F1D398813005FEE80 /* niceSun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = niceSun.png; sourceTree = "<group>"; };
 		5379DA811D398D12005FEE80 /* clouds.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clouds.jpg; sourceTree = "<group>"; };
+		5379DA831D3D5190005FEE80 /* thermometer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thermometer.png; sourceTree = "<group>"; };
+		5379DA851D3D538C005FEE80 /* weatherIconRain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weatherIconRain.png; sourceTree = "<group>"; };
+		5379DA871D3D5396005FEE80 /* weatherIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weatherIcon.png; sourceTree = "<group>"; };
+		5379DA951D3D6E2C005FEE80 /* UVAPP-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UVAPP-Bridging-Header.h"; sourceTree = "<group>"; };
+		5379DA961D3D6E2C005FEE80 /* WeatherParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherParameters.swift; sourceTree = "<group>"; };
+		5379DA991D3D72C7005FEE80 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		5379DA9A1D3D72C7005FEE80 /* Icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40.png"; sourceTree = "<group>"; };
+		5379DA9B1D3D72C7005FEE80 /* Icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@2x.png"; sourceTree = "<group>"; };
+		5379DA9C1D3D72C7005FEE80 /* Icon-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@3x.png"; sourceTree = "<group>"; };
+		5379DA9D1D3D72C7005FEE80 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
+		5379DA9E1D3D72C7005FEE80 /* Icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@3x.png"; sourceTree = "<group>"; };
+		5379DA9F1D3D72C7005FEE80 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		5379DAA01D3D72C7005FEE80 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		5379DAA11D3D72C7005FEE80 /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
+		5379DAA21D3D72C7005FEE80 /* Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76@2x.png"; sourceTree = "<group>"; };
+		5379DAA31D3D72C7005FEE80 /* Icon-83.5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-83.5@2x.png"; sourceTree = "<group>"; };
+		5379DAA41D3D72C7005FEE80 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		5379DAA51D3D72C7005FEE80 /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		5379DAA61D3D72C7005FEE80 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		5379DAA71D3D72C7005FEE80 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		5379DAA81D3D72C7005FEE80 /* Icon-Small@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@3x.png"; sourceTree = "<group>"; };
+		5379DAA91D3D72C7005FEE80 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		5379DAAA1D3D72C7005FEE80 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		5379DABD1D3D79C5005FEE80 /* scrollDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scrollDown.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,17 +105,19 @@
 		5379DA521D3949FC005FEE80 = {
 			isa = PBXGroup;
 			children = (
+				5379DA961D3D6E2C005FEE80 /* WeatherParameters.swift */,
 				5379DA7D1D397FB4005FEE80 /* CoreLocation.framework */,
 				5379DA751D394ED0005FEE80 /* QuartzCore.framework */,
 				5379DA5D1D3949FC005FEE80 /* UV APP */,
 				5379DA5C1D3949FC005FEE80 /* Products */,
+				5379DA951D3D6E2C005FEE80 /* UVAPP-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
 		5379DA5C1D3949FC005FEE80 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5379DA5B1D3949FC005FEE80 /* UV APP.app */,
+				5379DA5B1D3949FC005FEE80 /* UVAPP.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -82,11 +131,16 @@
 				5379DA651D3949FC005FEE80 /* ViewController.m */,
 				5379DA671D3949FC005FEE80 /* Main.storyboard */,
 				5379DA6A1D3949FC005FEE80 /* Assets.xcassets */,
+				5379DA981D3D72C7005FEE80 /* AppIcon.appiconset */,
 				5379DA811D398D12005FEE80 /* clouds.jpg */,
 				5379DA7F1D398813005FEE80 /* niceSun.png */,
 				5379DA7B1D397E73005FEE80 /* sunny.jpeg */,
 				5379DA791D397A13005FEE80 /* sun.png */,
+				5379DABD1D3D79C5005FEE80 /* scrollDown.png */,
 				5379DA771D396959005FEE80 /* wavyline.png */,
+				5379DA831D3D5190005FEE80 /* thermometer.png */,
+				5379DA851D3D538C005FEE80 /* weatherIconRain.png */,
+				5379DA871D3D5396005FEE80 /* weatherIcon.png */,
 				5379DA6C1D3949FC005FEE80 /* LaunchScreen.storyboard */,
 				5379DA6F1D3949FC005FEE80 /* Info.plist */,
 				5379DA5E1D3949FC005FEE80 /* Supporting Files */,
@@ -102,12 +156,37 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		5379DA981D3D72C7005FEE80 /* AppIcon.appiconset */ = {
+			isa = PBXGroup;
+			children = (
+				5379DA991D3D72C7005FEE80 /* Contents.json */,
+				5379DA9A1D3D72C7005FEE80 /* Icon-40.png */,
+				5379DA9B1D3D72C7005FEE80 /* Icon-40@2x.png */,
+				5379DA9C1D3D72C7005FEE80 /* Icon-40@3x.png */,
+				5379DA9D1D3D72C7005FEE80 /* Icon-60@2x.png */,
+				5379DAAA1D3D72C7005FEE80 /* Icon@2x.png */,
+				5379DA9E1D3D72C7005FEE80 /* Icon-60@3x.png */,
+				5379DA9F1D3D72C7005FEE80 /* Icon-72.png */,
+				5379DAA01D3D72C7005FEE80 /* Icon-72@2x.png */,
+				5379DAA11D3D72C7005FEE80 /* Icon-76.png */,
+				5379DAA21D3D72C7005FEE80 /* Icon-76@2x.png */,
+				5379DAA31D3D72C7005FEE80 /* Icon-83.5@2x.png */,
+				5379DAA41D3D72C7005FEE80 /* Icon-Small-50.png */,
+				5379DAA51D3D72C7005FEE80 /* Icon-Small-50@2x.png */,
+				5379DAA61D3D72C7005FEE80 /* Icon-Small.png */,
+				5379DAA71D3D72C7005FEE80 /* Icon-Small@2x.png */,
+				5379DAA81D3D72C7005FEE80 /* Icon-Small@3x.png */,
+				5379DAA91D3D72C7005FEE80 /* Icon.png */,
+			);
+			path = AppIcon.appiconset;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5379DA5A1D3949FC005FEE80 /* UV APP */ = {
+		5379DA5A1D3949FC005FEE80 /* UVAPP */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5379DA721D3949FC005FEE80 /* Build configuration list for PBXNativeTarget "UV APP" */;
+			buildConfigurationList = 5379DA721D3949FC005FEE80 /* Build configuration list for PBXNativeTarget "UVAPP" */;
 			buildPhases = (
 				5379DA571D3949FC005FEE80 /* Sources */,
 				5379DA581D3949FC005FEE80 /* Frameworks */,
@@ -117,9 +196,9 @@
 			);
 			dependencies = (
 			);
-			name = "UV APP";
+			name = UVAPP;
 			productName = "UV APP";
-			productReference = 5379DA5B1D3949FC005FEE80 /* UV APP.app */;
+			productReference = 5379DA5B1D3949FC005FEE80 /* UVAPP.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -137,7 +216,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5379DA561D3949FC005FEE80 /* Build configuration list for PBXProject "UV APP" */;
+			buildConfigurationList = 5379DA561D3949FC005FEE80 /* Build configuration list for PBXProject "UVAPP" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -150,7 +229,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5379DA5A1D3949FC005FEE80 /* UV APP */,
+				5379DA5A1D3949FC005FEE80 /* UVAPP */,
 			);
 		};
 /* End PBXProject section */
@@ -161,13 +240,35 @@
 			buildActionMask = 2147483647;
 			files = (
 				5379DA6E1D3949FC005FEE80 /* LaunchScreen.storyboard in Resources */,
+				5379DABC1D3D72C7005FEE80 /* Icon@2x.png in Resources */,
 				5379DA7C1D397E73005FEE80 /* sunny.jpeg in Resources */,
+				5379DAB61D3D72C7005FEE80 /* Icon-Small-50.png in Resources */,
+				5379DAB81D3D72C7005FEE80 /* Icon-Small.png in Resources */,
 				5379DA6B1D3949FC005FEE80 /* Assets.xcassets in Resources */,
+				5379DAB91D3D72C7005FEE80 /* Icon-Small@2x.png in Resources */,
 				5379DA821D398D12005FEE80 /* clouds.jpg in Resources */,
+				5379DAB41D3D72C7005FEE80 /* Icon-76@2x.png in Resources */,
+				5379DAAE1D3D72C7005FEE80 /* Icon-40@3x.png in Resources */,
 				5379DA7A1D397A13005FEE80 /* sun.png in Resources */,
+				5379DA881D3D5396005FEE80 /* weatherIcon.png in Resources */,
+				5379DAAF1D3D72C7005FEE80 /* Icon-60@2x.png in Resources */,
+				5379DABB1D3D72C7005FEE80 /* Icon.png in Resources */,
+				5379DABA1D3D72C7005FEE80 /* Icon-Small@3x.png in Resources */,
+				5379DA861D3D538C005FEE80 /* weatherIconRain.png in Resources */,
+				5379DABE1D3D79C5005FEE80 /* scrollDown.png in Resources */,
+				5379DA841D3D5190005FEE80 /* thermometer.png in Resources */,
+				5379DAB51D3D72C7005FEE80 /* Icon-83.5@2x.png in Resources */,
+				5379DAAC1D3D72C7005FEE80 /* Icon-40.png in Resources */,
+				5379DAB11D3D72C7005FEE80 /* Icon-72.png in Resources */,
 				5379DA781D396959005FEE80 /* wavyline.png in Resources */,
+				5379DAB21D3D72C7005FEE80 /* Icon-72@2x.png in Resources */,
 				5379DA801D398813005FEE80 /* niceSun.png in Resources */,
+				5379DAB71D3D72C7005FEE80 /* Icon-Small-50@2x.png in Resources */,
+				5379DAAD1D3D72C7005FEE80 /* Icon-40@2x.png in Resources */,
 				5379DA691D3949FC005FEE80 /* Main.storyboard in Resources */,
+				5379DAB31D3D72C7005FEE80 /* Icon-76.png in Resources */,
+				5379DAB01D3D72C7005FEE80 /* Icon-60@3x.png in Resources */,
+				5379DAAB1D3D72C7005FEE80 /* Contents.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +281,7 @@
 			files = (
 				5379DA661D3949FC005FEE80 /* ViewController.m in Sources */,
 				5379DA631D3949FC005FEE80 /* AppDelegate.m in Sources */,
+				5379DA971D3D6E2C005FEE80 /* WeatherParameters.swift in Sources */,
 				5379DA601D3949FC005FEE80 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,10 +394,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "UV APP/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "clyff-super-ios-company.UV-APP";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = UVAPP;
+				SWIFT_OBJC_BRIDGING_HEADER = "UVAPP-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -303,17 +410,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "UV APP/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "clyff-super-ios-company.UV-APP";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = UVAPP;
+				SWIFT_OBJC_BRIDGING_HEADER = "UVAPP-Bridging-Header.h";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5379DA561D3949FC005FEE80 /* Build configuration list for PBXProject "UV APP" */ = {
+		5379DA561D3949FC005FEE80 /* Build configuration list for PBXProject "UVAPP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5379DA701D3949FC005FEE80 /* Debug */,
@@ -322,13 +433,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5379DA721D3949FC005FEE80 /* Build configuration list for PBXNativeTarget "UV APP" */ = {
+		5379DA721D3949FC005FEE80 /* Build configuration list for PBXNativeTarget "UVAPP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5379DA731D3949FC005FEE80 /* Debug */,
 				5379DA741D3949FC005FEE80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
