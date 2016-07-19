@@ -43,6 +43,7 @@
 		5379DABB1D3D72C7005FEE80 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5379DAA91D3D72C7005FEE80 /* Icon.png */; };
 		5379DABC1D3D72C7005FEE80 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5379DAAA1D3D72C7005FEE80 /* Icon@2x.png */; };
 		5379DABE1D3D79C5005FEE80 /* scrollDown.png in Resources */ = {isa = PBXBuildFile; fileRef = 5379DABD1D3D79C5005FEE80 /* scrollDown.png */; };
+		53FC15B71D3DB2FC008301AB /* MoreWeatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FC15B61D3DB2FC008301AB /* MoreWeatherViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -87,6 +88,8 @@
 		5379DAA91D3D72C7005FEE80 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		5379DAAA1D3D72C7005FEE80 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		5379DABD1D3D79C5005FEE80 /* scrollDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scrollDown.png; sourceTree = "<group>"; };
+		53FC15B51D3DB2FC008301AB /* MoreWeatherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreWeatherViewController.h; sourceTree = "<group>"; };
+		53FC15B61D3DB2FC008301AB /* MoreWeatherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreWeatherViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +132,8 @@
 				5379DA621D3949FC005FEE80 /* AppDelegate.m */,
 				5379DA641D3949FC005FEE80 /* ViewController.h */,
 				5379DA651D3949FC005FEE80 /* ViewController.m */,
+				53FC15B51D3DB2FC008301AB /* MoreWeatherViewController.h */,
+				53FC15B61D3DB2FC008301AB /* MoreWeatherViewController.m */,
 				5379DA671D3949FC005FEE80 /* Main.storyboard */,
 				5379DA6A1D3949FC005FEE80 /* Assets.xcassets */,
 				5379DA981D3D72C7005FEE80 /* AppIcon.appiconset */,
@@ -281,6 +286,7 @@
 			files = (
 				5379DA661D3949FC005FEE80 /* ViewController.m in Sources */,
 				5379DA631D3949FC005FEE80 /* AppDelegate.m in Sources */,
+				53FC15B71D3DB2FC008301AB /* MoreWeatherViewController.m in Sources */,
 				5379DA971D3D6E2C005FEE80 /* WeatherParameters.swift in Sources */,
 				5379DA601D3949FC005FEE80 /* main.m in Sources */,
 			);

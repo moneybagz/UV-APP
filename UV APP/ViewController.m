@@ -23,7 +23,7 @@
     
     [self.textScroll setHidden:YES];
     [self.hideButton setHidden:YES];
-    [self.cloudsImage setHidden:YES];
+//    [self.cloudsImage setHidden:YES];
     
 
     
@@ -182,36 +182,41 @@
     CAGradientLayer *gradientLayer = [CAGradientLayer layer];
     gradientLayer.colors = gradientColors;
     gradientLayer.locations = gradientLocations;
-    self.bottomView.backgroundColor = bottomColor;
+//    self.bottomView.backgroundColor = bottomColor;
+    self.color = bottomColor;
+     
+    
     return gradientLayer;
 }
+
+
 
 -(void)chooseUVcolor:(double)uvIndex
 {
     if (uvIndex <= 2.9 ){
         CAGradientLayer *backgroundLayer = [self gradientLayer:0];
         backgroundLayer.frame = self.view.frame;
-        [self.mainView.layer insertSublayer:backgroundLayer atIndex:0];
+        [self.gradientView.layer insertSublayer:backgroundLayer atIndex:0];
     }
     if (uvIndex > 2.9 && uvIndex <= 5.9){
         CAGradientLayer *backgroundLayer = [self gradientLayer:1];
         backgroundLayer.frame = self.view.frame;
-        [self.mainView.layer insertSublayer:backgroundLayer atIndex:0];
+        [self.gradientView.layer insertSublayer:backgroundLayer atIndex:0];
     }
     if (uvIndex > 5.9 && uvIndex <= 7.9){
         CAGradientLayer *backgroundLayer = [self gradientLayer:2];
         backgroundLayer.frame = self.view.frame;
-        [self.mainView.layer insertSublayer:backgroundLayer atIndex:0];
+        [self.gradientView.layer insertSublayer:backgroundLayer atIndex:0];
     }
     if (uvIndex > 7.9 && uvIndex <= 10.9){
         CAGradientLayer *backgroundLayer = [self gradientLayer:3];
         backgroundLayer.frame = self.view.frame;
-        [self.mainView.layer insertSublayer:backgroundLayer atIndex:0];
+        [self.gradientView.layer insertSublayer:backgroundLayer atIndex:0];
     }
     if (uvIndex > 10.9){
         CAGradientLayer *backgroundLayer = [self gradientLayer:4];
         backgroundLayer.frame = self.view.frame;
-        [self.mainView.layer insertSublayer:backgroundLayer atIndex:0];
+        [self.gradientView.layer insertSublayer:backgroundLayer atIndex:0];
     }
 }
 -(void)prepareLocationManager {
@@ -268,62 +273,62 @@
     
 }
 
--(void)getWeatherData {
-    //    NSURL *url = [NSURL URLWithString:@"http://api.openweathermap.org/v3/uvi/40.7,-74.2/current.json?appid=d537d182d506e0d3c152e115f5cc8e16"];
-    
-    
-    
-    NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"http://api.openweathermap.org/data/2.5/weather?lat=%@&lon=%@&units=imperial&appid=d537d182d506e0d3c152e115f5cc8e16", self.latitude, self.longitude]];
-    
-    
-    NSURLSession *session = [NSURLSession sessionWithConfiguration:[NSURLSessionConfiguration defaultSessionConfiguration]];
-    NSMutableURLRequest *request = [[NSMutableURLRequest alloc]initWithURL:url];
-    request.HTTPMethod = @"GET";
-    
-    
-    [[session dataTaskWithRequest:request
-                completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
-                    
-                    
-                    NSError *jsonError;
-                    NSDictionary *jsonToDictionary = [NSJSONSerialization JSONObjectWithData:data
-                                                                                     options:NSJSONReadingMutableContainers
-                                                                                       error:&jsonError];
-                    
-                    NSLog(@"%@",jsonToDictionary);
-                    NSDictionary *main = [jsonToDictionary objectForKey:@"main"];
-                    self.temperatureFaren = [main objectForKey:@"temp"];
-                    self.humidity = [main objectForKey:@"humidity"];
-                    self.airPressure = [main objectForKey:@"pressure"];
-                    NSArray *weatherArray = [jsonToDictionary objectForKey:@"weather"];
-                    NSDictionary *weatherDict = weatherArray[0];
-                    
-                    
-                    self.skyDescription = [weatherDict objectForKey:@"description"];
-                    
-                    NSLog(@"%@",self.temperatureFaren);
-                    NSLog(@"%@",self.humidity);
-                    NSLog(@"%@",self.airPressure);
-                    NSLog(@"%@",self.skyDescription);
-                    
-                    dispatch_async(dispatch_get_main_queue(), ^{
-                        
-                        //CHANGE ANY VIEWS THAT CORRESPOND TO UV INDEX
-                       
-                        
-                        
-                        
-                        self.tempLabel.text = [NSString stringWithFormat:@"%@ F", self.temperatureFaren];
-                        self.humidityLabel.text = [NSString stringWithFormat:@"%@%%", self.humidity];
-                        self.airPressureLabel.text = [NSString stringWithFormat:@"%@ hPa", self.airPressure];
-                        self.skyDescriptionLabel.text = [NSString stringWithFormat:@"%@", self.skyDescription];
-                    });
-                    
-                    
-                }]
-     resume];
-    
-}
+//-(void)getWeatherData {
+//    //    NSURL *url = [NSURL URLWithString:@"http://api.openweathermap.org/v3/uvi/40.7,-74.2/current.json?appid=d537d182d506e0d3c152e115f5cc8e16"];
+//    
+//    
+//    
+//    NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"http://api.openweathermap.org/data/2.5/weather?lat=%@&lon=%@&units=imperial&appid=d537d182d506e0d3c152e115f5cc8e16", self.latitude, self.longitude]];
+//    
+//    
+//    NSURLSession *session = [NSURLSession sessionWithConfiguration:[NSURLSessionConfiguration defaultSessionConfiguration]];
+//    NSMutableURLRequest *request = [[NSMutableURLRequest alloc]initWithURL:url];
+//    request.HTTPMethod = @"GET";
+//    
+//    
+//    [[session dataTaskWithRequest:request
+//                completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
+//                    
+//                    
+//                    NSError *jsonError;
+//                    NSDictionary *jsonToDictionary = [NSJSONSerialization JSONObjectWithData:data
+//                                                                                     options:NSJSONReadingMutableContainers
+//                                                                                       error:&jsonError];
+//                    
+//                    NSLog(@"%@",jsonToDictionary);
+//                    NSDictionary *main = [jsonToDictionary objectForKey:@"main"];
+//                    self.temperatureFaren = [main objectForKey:@"temp"];
+//                    self.humidity = [main objectForKey:@"humidity"];
+//                    self.airPressure = [main objectForKey:@"pressure"];
+//                    NSArray *weatherArray = [jsonToDictionary objectForKey:@"weather"];
+//                    NSDictionary *weatherDict = weatherArray[0];
+//                    
+//                    
+//                    self.skyDescription = [weatherDict objectForKey:@"description"];
+//                    
+//                    NSLog(@"%@",self.temperatureFaren);
+//                    NSLog(@"%@",self.humidity);
+//                    NSLog(@"%@",self.airPressure);
+//                    NSLog(@"%@",self.skyDescription);
+//                    
+//                    dispatch_async(dispatch_get_main_queue(), ^{
+//                        
+//                        //CHANGE ANY VIEWS THAT CORRESPOND TO UV INDEX
+//                       
+//                        
+//                        
+//                        
+//                        self.tempLabel.text = [NSString stringWithFormat:@"%@ F", self.temperatureFaren];
+//                        self.humidityLabel.text = [NSString stringWithFormat:@"%@%%", self.humidity];
+//                        self.airPressureLabel.text = [NSString stringWithFormat:@"%@ hPa", self.airPressure];
+//                        self.skyDescriptionLabel.text = [NSString stringWithFormat:@"%@", self.skyDescription];
+//                    });
+//                    
+//                    
+//                }]
+//     resume];
+//    
+//}
 
 
 -(void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray<CLLocation *> *)locations {
@@ -335,7 +340,7 @@
     NSLog(@"Latitude : %@", self.latitude);
     NSLog(@"Longitude : %@", self.longitude);
     [self getData];
-    [self getWeatherData];
+//    [self getWeatherData];
     [self.locationManager stopUpdatingLocation];
     
     
@@ -383,4 +388,11 @@
     
 }
 
+- (IBAction)moreWeather:(id)sender {
+    dispatch_async(dispatch_get_main_queue(), ^{
+        MoreWeatherViewController *moreWeatherViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"moreWeatherViewController"];
+        moreWeatherViewController.color = self.color;
+    [self presentViewController:moreWeatherViewController animated:YES completion:nil];
+    });
+}
 @end
